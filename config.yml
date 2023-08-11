@@ -1,0 +1,105 @@
+baseURL: "https://mendezcolmenares.org"
+title: Andrea Méndez Colmenares
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+social:
+    twitter: andreamendez92
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: /papers/
+          weight: 1
+        - name: My Research Interests
+          url: /research/
+          weight: 2
+        - name: Travel
+          url: /travel/
+          weight: 3
+
+
+params:
+    description: "I am a Postdoctoral Research Fellow at Colorado State University working on white matter neuroimaging research. I'm a medical doctor from Maracaibo, Venezuela, with a Ph.D. in Cognitive Neuroscience and hope to become a physician-scientist in cognitive neurology."
+      author: Andrea Méndez Colmenares
+    googleAnalyticsID: "G-97G4MZ4061"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Andrea Méndez Colmenares
+          subtitle:"I am a Postdoctoral Research Fellow at Colorado State University working on white matter neuroimaging research. I'm a medical doctor from Maracaibo, Venezuela, with a Ph.D. in Cognitive Neuroscience and hope to become a physician-scientist in cognitive neurology."
+          imageUrl: "/picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Andrea Méndez Colmenares
+          buttons:
+        - name: Papers
+          url: /papers/
+          weight: 1
+        - name: My Research Interests
+          url: /research/
+          weight: 2
+        - name: Travel
+          url: /travel/
+          weight: 3
+    socialIcons:
+        - name: CV
+          url: /cv.pdf
+        - name: Email
+          url: mailto:asmc92@gmail.com
+        - name: Location
+          url: /location/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=e8jAPewAAAAJ
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: true
+        hiddenInSingle: true
+    label:
+      text: "Andrea Méndez Colmenares"
+      icon: /favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: xcode
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
+
+# max number of characters:
+# * title: 70
+# * description: 120–155
+# * summary: 265
